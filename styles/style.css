@@ -1,0 +1,32 @@
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.search-box #userinput {
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px #ddd solid;
+}
+
+.search-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.search-buttons .buttons {
+    margin: 5px;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px #ddd solid;
+    opacity: 0.8;
+}
+
+
