@@ -3,7 +3,23 @@
     justify-content: center;
 }
 
+
+.search-box i {
+    position: absolute;
+    left: 300px;
+    top: 15px;
+    color: #9AA0A6;
+    opacity: 0.8;
+}
+
+.img-container img {
+    display: block;
+    width: 272px;
+    height: 92px;
+}
+
 .search-box {
+    position: relative;
     display: flex;
     justify-content: center;
     margin: 30px;
@@ -12,8 +28,13 @@
 .search-box #userinput {
     width: 50%;
     padding: 15px;
+    /* padding-right: 20px; */
     border-radius: 15px;
     border: 1px #ddd solid;
+    background: url(../img/google-microphone.png);
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
 }
 
 .search-buttons {
